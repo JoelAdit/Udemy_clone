@@ -4,7 +4,7 @@
 body{ 
     font-family: "Gabarito", sans-serif;
         font-optical-sizing: auto;
-        
+    
 }
 
 .navbar{
@@ -13,6 +13,10 @@ body{
     justify-content: space-between;
     border-bottom: solid black 1px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 
 .navbar__s1__title{
@@ -27,14 +31,13 @@ body{
     width:50%;
     display: flex;
     gap: 20px;
-    
 }
+
 
 .navbar__s2 input{
     border: none;
     width: 50%;
-    
-    
+    background-color: transparent;
 }
 .navbar__s2 input:focus{
     outline: none;
@@ -45,6 +48,26 @@ body{
     gap: 20px;
     align-items: center;
 
+}
+
+/*My learning popup*/
+.mylearning{
+    position: relative;
+    cursor: pointer;
+    
+}
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 2px;
+    padding: 5px;
+    right: 0;
+    top: 20px;
+    
+    display: none;
+}
+.mylearning:hover .mylearning__popup{
+    display: block;
 }
 
 .categories{
@@ -61,6 +84,23 @@ body{
 }
 .sale-img img{
     width: 100%;
+}
+.sale-img__offer{
+    position: relative;
+    
+}
+
+.sale-img__offer{
+    background-color: white;
+    border: solid black 2px;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 60%;
+    left: 10%;
+    
 }
 
 .recommended{
