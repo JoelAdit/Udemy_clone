@@ -1,6 +1,7 @@
 *{padding: 0;}
 *{margin: 0;}
 
+
 body{ 
     font-family: "Gabarito", sans-serif;
         font-optical-sizing: auto;
@@ -20,7 +21,7 @@ body{
 }
 
 .navbar__s1__title{
-    color: violet;
+    color: #A435F0;
 
 }
 
@@ -78,9 +79,17 @@ body{
 }
 
 .categories p{
-    background-color: violet;
+    background-color: #A435F0;
     border-radius: 50px;
     padding: 10px;
+    border: #A435F0 solid 1px;
+}
+.categories p:hover{
+    background-color: transparent;
+    color: #A435F0;
+    transition: 1s;
+    cursor: pointer;
+    border: #A435F0 solid 1px;
 }
 .sale-img img{
     width: 100%;
@@ -99,9 +108,23 @@ body{
     margin-top: 10px;
     position: absolute;
     bottom: 60%;
-    left: 10%;
-    
-}
+    left: 10%; 
+    animation-name:zoom ;
+    animation-duration: 1s;  
+}   
+
+    @keyframes zoom {
+
+        0%{
+            transform: scale(0);
+            opacity: 0;
+        }
+        100%{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
 
 .recommended{
     padding: 30px;
