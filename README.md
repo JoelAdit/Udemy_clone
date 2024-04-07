@@ -1,5 +1,5 @@
 Udemy Website Clone..
-This project is a basic clone of the Udemy homepage, created solely with HTML and CSS. It aims to replicate the appearance and layout of the Udemy homepage, providing users with a familiar interface for browsing courses.
+This project is a basic clone of the Udemy homepage, created solely with HTML,CSS. It aims to replicate the appearance and layout of the Udemy homepage, providing users with a familiar interface for browsing courses.
 
 Features
 Homepage Replica: The project faithfully reproduces the layout and visual elements of the Udemy homepage, including header, navigation bar, featured courses, and footer.
